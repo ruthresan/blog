@@ -1,0 +1,11 @@
+<!-- ✅ Navbar -->
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Blog</a>
+        <div class="ms-auto">
+            <a href="{% url 'blog:index' %}" class="text-white me-3">Home</a>
+            <a href="{% url 'blog:about' %}" class="text-white me-3">About</a>
+            <a href="{% url 'blog:contact' %}" class="text-white">Contact</a>
+        </div>
+    </div>
+</nav>

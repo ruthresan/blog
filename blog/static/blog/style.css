@@ -1,0 +1,62 @@
+body {
+    background-color: #f2f2f2;
+     padding-bottom: 100px; /* Prevent footer overlap */
+}
+
+/* Navbar */
+.navbar a {
+    text-decoration: none;
+}
+.blog-card {
+    background: white;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    transition: 0.3s;
+}
+
+/* ✅ FIX IMAGE SIZE */
+.blog-img {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Content */
+.blog-content h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.blog-content p {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+/* Category */
+.category {
+    font-size: 13px;
+    font-weight: bold;
+}
+/* Footer Fixed */
+footer {
+    background: #212529;
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
